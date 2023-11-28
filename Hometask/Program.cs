@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Hometask;
+
+Child child = new Child("Saida", 18);
+child.Name = "Saida";
+child.Age = 19;
+child.GettAllInfo();
