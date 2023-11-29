@@ -8,8 +8,8 @@ namespace Hometask
 {
     public class Child
     {
-        private string name;
-        private int age;
+        private string name = "Saida";
+        private int age = 18;
 
         public Child(string _name, int _age)
         {
@@ -19,33 +19,19 @@ namespace Hometask
         }
         public string Name
         {
-            set
+            get
             {
-                this.name = value;
+                return name;
             }
         }
 
         public int Age
         {
-            set
+            get
             {
-                this.age = value;
+                return age;
             }
         }
 
-        public void GettAllInfo()
-        {
-            Console.WriteLine($"Name: {name}\n" +
-                              $"Age: {age}");
-
-
-
-
-        }
-
-
-
-
     }
 }
-
